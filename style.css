@@ -1,0 +1,82 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+#container{
+width: 800px;
+height: 400px;
+border: black 1px solid;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+box-shadow: black 1px 1px 1px;
+background-color: honeydew;
+position: relative;
+
+}
+
+
+.cBar{
+    height: 25%;
+    width: 800px;
+    background-color: rgb(62, 105, 61);
+    position: relative;
+
+}
+
+.info{
+display: flex;
+flex-direction:column;
+padding-left: 5%;
+list-style: none;
+padding-bottom: 8%;
+font-weight: bold;
+}
+#name{
+    font-size: 50px;
+    font-weight: normal;
+
+}
+#location{
+    padding-left: 2em;
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+
+#jobs{
+    
+
+
+}
+#editprof{
+
+    padding-left: 1.5em;
+}
+
+.cBar img{
+    height: 100px;
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    filter: invert(1);
+    border: white 2px solid;
+    border-radius: 50%;
+    box-shadow: white 3px 3px 8px;
+}
+
+#map{
+    position: absolute;
+    height: 24px;
+    top: 220px;
+    left: 55px;
+}
+
+#gear{
+    position: absolute;
+    height: 20px;
+    top: 315px;
+    left: 40px;
+}
